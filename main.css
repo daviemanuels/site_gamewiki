@@ -8,6 +8,18 @@ header, footer {
     background-color: #0f8afd;
 }
 
+main {
+    max-width: 1280px;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #f1f1f1;
+}
+
 h1, h2, h3 {
     color: #ffffff;
 }
@@ -31,4 +43,33 @@ nav li a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+}
+
+.methods {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.methods img {
+    width: 600px;
+}
+
+.methods-main {
+    display: flex;
+    gap: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #0f8afd;
+}
+
+.title-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-main h2 {
+    font-size: 30px;
+    background-color: #0f8afd;
 }
