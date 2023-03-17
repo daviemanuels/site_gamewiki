@@ -63,6 +63,19 @@ nav li a {
     box-shadow: 5px 5px 5px #0f8afd;
 }
 
+.methods-about p {
+    display: block;
+    padding: 20px;
+    background-color: #0f8afd;
+    border-radius: 8px;
+}
+
+.methods-main a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+}
+
 .title-main {
     display: flex;
     flex-direction: column;
@@ -71,5 +84,7 @@ nav li a {
 
 .title-main h2 {
     font-size: 30px;
-    background-color: #0f8afd;
+    color: #000;
+    padding-top: 20px;
+
 }
