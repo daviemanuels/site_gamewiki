@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Wiki</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,10 +18,10 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Arsenal</a>
+                        <a href="#arsenal">Arsenal</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#footer-contact">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -27,10 +31,12 @@
         <section class="methods-main">
             <div class="methods-about">
                 <a href="#">
-                    <img src="./images/image_mario.jpg" alt="">
+                    <img src="./images/image_mario.jpg" alt="Logo do Mario Bros">
                 </a>
                 <a href="#">
-                    <p>News</p>
+                    <p>Clique aqui para saber mais sobre o novo
+                        lançamento!
+                    </p>
                 </a>
             </div>
             <div class="title-main">
@@ -49,9 +55,91 @@
                 </p>
             </div>
         </section>
-    </main>
-    <footer>
+        <section id="arsenal">
+            <h2>Arsenal</h2>
+            <div class="notices-dashboard">
+                <div class="notices">
+                    <a href="#">
+                        <img src="./images/image_lol.jfif" alt="Logo do League of Legends">
+                        <p>
+                            News!
+                        </p>
+                    </a>
+                </div>
+                <div class="notices">
+                    <a href="#">
+                        <img src="./images/image_horizon.jpg" alt="Logo do Horizon">
+                        <p>
+                            News!
+                        </p>
+                    </a>
+                </div>
+                <div class="notices">
+                    <a href="#">
+                        <img src="./images/image_subway.webp" alt="Logo do Subway Surfers">
+                        <p>
+                            News!
+                        </p>
+                    </a>
+                </div>
+            </div>
 
+        </section>
+    </main>
+    <footer id="footer-contact">
+        <h2>Contato</h2>
+        <div class="contact">
+            <div>
+                <h3>Fale conosco</h3>
+                <form>
+                    <input type="text" name=""placeholder="Seu nome">
+                    <input type="email" name=""placeholder="Seu e-mail">
+                    <input type="tel" name=""placeholder="Seu telefone">
+                    <textarea name="" placeholder="Sua mensagem"></textarea>
+                    <button type="submit">ENVIAR</button>
+                </form>
+            </div>
+            <div class="about">
+                <h3>Sobre</h3>
+                <ul>
+                    <li>Lorem Ipsum dolor sit amet consectetur</li>
+                    <li>Lorem Ipsum dolor sit amet consectetur</li>
+                    <li>Lorem Ipsum dolor sit amet consectetur</li>
+                </ul>
+            </div>
+            <div class="information">
+                <h3>Informações</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Recusandae reiciendis labore repudiandae 
+                    consequatur error atque dolore numquam in? Iusto 
+                    tempore soluta ad accusamus architecto molestiae 
+                    ullam consequatur aliquid expedita incidunt.</p>
+            </div>
+            <div class="social-media">
+                <h3>Siga-nos nas nossas redes sociais!</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./images/facebook.png" alt="Logo do facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/instagram.png" alt="Logo do instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/youtube.png" alt="Logo do youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot">
+            &copy; Todos os direitos reservados - 2023
+        </div>
+        
     </footer>
 </body>
 </html>
